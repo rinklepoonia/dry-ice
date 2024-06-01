@@ -10,7 +10,7 @@ import ComnBtn from './ComnBtn'
 function Hero() {
     const [nav, setnav] = useState(false)
     return (
-        <div className='hero_bg_img min_vh_100 h_954 d-flex flex-column'>
+        <div className='hero_bg_img min_vh_100 h_md_954 h_750 d-flex flex-column'>
             <div className="container">
                 <div className='d-flex justify-content-between py_14 mx_45 gap-4 overflow-x-auto'>
                     <div className='d-flex align-items-center gap-2'>
@@ -51,8 +51,8 @@ function Hero() {
             </div>
             <div className='d-flex flex-column justify-content-center align-items-center flex_grow_1'>
                 <div className='container'>
-                    <div className='pt_87 d-flex flex-column align-items-center'>
-                        <h1 className='ff_titling fw-bold text96_3xl lh_lg_115 lh_md_90 lh_70 color_white max_w_730 text-center mb-3'>Automotive Dry <span className='d-lg-block'>Ice Cleaning</span></h1>
+                    <div className='pt_md_87 pt_35 d-flex flex-column align-items-center'>
+                        <h1 className='ff_titling fw-bold text96_3xl lh_lg_115 lh_md_90 lh_65 color_white max_w_730 text-center mb-md-3 mb-0'>Automotive Dry <span className='d-lg-block'>Ice Cleaning</span></h1>
                         <p className='ff_acmin fw-normal text20_md lh_30 color_white max_w_730 text-center mb-4 pb-lg-3 pb-0'>Discover the ultimate clean for your machine.
                             <span className='d-lg-block'>No chemicals, no abrasives and no drama.</span></p>
                         <ComnBtn className="Get Instant Quote" />
