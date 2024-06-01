@@ -10,7 +10,7 @@ import ComnBtn from './ComnBtn'
 function Hero() {
     const [nav, setnav] = useState(false)
     return (
-        <div className='hero_bg_img min_vh_100 h_md_954 h_750 d-flex flex-column'>
+        <div className='hero_bg_img min_vh_100 h_md_954 h_750 d_flex flex-column'>
             <div className="container">
                 <div className='d-flex justify-content-between py_14 mx_45 gap-4 overflow-x-auto'>
                     <div className='d-flex align-items-center gap-2'>
