@@ -248,10 +248,19 @@
   max-width: 280px;
 }
 
-/* .future_bg_img {
+.mt_18 {
+  margin-top: 18%;
+}
+
+.mt_15 {
+  margin-top: -17% !important;
+}
+
+.future_bg_img {
   background-image: url(./assets/images/png/future-bg-img.png);
   background-size: 100% 100%;
-} */
+  /* position: absolute; */
+}
 
 .bg_no_repate {
   background-repeat: no-repeat;
@@ -383,5 +392,11 @@
 
   .flex_grow_1 {
     flex-grow: 1 !important;
+  }
+}
+
+@media (min-width:1400px) and (max-width:1535.99px) {
+  .container {
+    max-width: 1140px !important;
   }
 }
