@@ -30,6 +30,10 @@
   opacity: 70%;
 }
 
+.opacity_90 {
+  opacity: 90%;
+}
+
 /* ======font-weight======= */
 .fw-normal {
   font-weight: 400 !important;
@@ -60,6 +64,10 @@
   --clr-orange: #FA6A00;
   --clr-shadawOrange: #FA6A0099;
   --clr-blue: #101A2E;
+}
+
+.bg_orange {
+  background: var(--clr-orange);
 }
 
 .color_blue {
@@ -241,21 +249,55 @@
 /* ========future====== */
 .pt_83_70 {
   padding-top: 83px;
-  padding-bottom: 70px;
+  /* padding-bottom: 70px; */
+}
+
+.pb_137 {
+  padding-bottom: 137px;
 }
 
 .max_w_280 {
   max-width: 280px;
 }
 
+.max_w_641 {
+  max-width: 641px !important;
+}
+
+.max_w_588 {
+  max-width: 588px;
+}
+
+.max_w_728 {
+  max-width: 728px;
+}
+
 .mt_18 {
-  margin-top: 18%;
+  margin-top: 13%;
 }
 
 .mt_15 {
   margin-top: -17% !important;
 }
 
+/* ==========understanding========= */
+/* .h_1506 {
+  height: 1506px;
+} */
+.pb_300{
+  padding-bottom: 160px;
+}
+
+.pt_260 {
+  padding-top: 260px;
+}
+
+.mt_365 {
+  margin-top: 293px !important;
+}
+.mt_118{
+  margin-top: 118px;
+}
 .future_bg_img {
   background-image: url(./assets/images/png/future-bg-img.png);
   background-size: 100% 100%;
@@ -265,6 +307,22 @@
 .bg_no_repate {
   background-repeat: no-repeat;
 }
+
+.pos_blasting1 {
+  top: 20%;
+  right: 0;
+}
+
+.pos_blasting2 {
+  top: 40%;
+}
+
+.pos_underlayer1 {
+  top: -1px;
+}
+
+
+
 
 @media (max-width:991.99px) {
   .z_6 {
@@ -315,6 +373,12 @@
     background: black;
     display: block;
     transition: 300ms linear;
+  }
+}
+
+@media (max-width:1200px) {
+  .opacity_30 {
+    opacity: 10%;
   }
 }
 
