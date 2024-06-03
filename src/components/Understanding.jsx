@@ -35,7 +35,7 @@ function Understanding() {
                         </div>
                     </div>
                 </div>
-                <div className='position-abs olute top-0'><img className='w-100' src={layerImg2} alt="layerImg2" /></div>
+               <img className='w-100' src={layerImg2} alt="layerImg2" />
             </div>
 
         </section>
