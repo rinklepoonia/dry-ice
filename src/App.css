@@ -24,7 +24,6 @@
   font-family: 'TitlingGothicFB Cond', sans-serif;
 }
 
-
 /* ====opacity=== */
 .opacity_70 {
   opacity: 70%;
@@ -50,12 +49,12 @@
 :root {
   --fs-xxs: 14px;
   --fs-xs: 16px;
-  --fs-sm: 18px;
+  --fs-sm: 16px;
   --fs-md: 20px;
-  --fs-2md: 24px;
+  --fs-2md: 20px;
   --fs-lg: 28px;
   --fs-xl: 32px;
-  --fs-2xl: 40px;
+  --fs-2xl: 35px;
   --fs-3xl: 65px;
   /* color */
   --clr-white: #FFFFFF;
@@ -149,10 +148,6 @@
 
 .lh_25 {
   line-height: 25.6px;
-}
-
-.lh_27 {
-  line-height: 27px;
 }
 
 .lh_30 {
@@ -252,24 +247,8 @@
   /* padding-bottom: 70px; */
 }
 
-.pb_137 {
-  padding-bottom: 137px;
-}
-
 .max_w_280 {
   max-width: 280px;
-}
-
-.max_w_641 {
-  max-width: 641px !important;
-}
-
-.max_w_588 {
-  max-width: 588px;
-}
-
-.max_w_728 {
-  max-width: 728px;
 }
 
 .mt_18 {
@@ -281,27 +260,22 @@
 }
 
 /* ==========understanding========= */
-/* .h_1506 {
-  height: 1506px;
-} */
-.pb_300{
-  padding-bottom: 160px;
+.py_73_45 {
+  padding-top: 73px;
+  padding-bottom: 45px;
 }
 
-.pt_260 {
-  padding-top: 260px;
+.mt_30 {
+  margin-top: 30px !important;
 }
 
-.mt_365 {
-  margin-top: 293px !important;
+.max_w_240 {
+  max-width: 240px;
 }
-.mt_118{
-  margin-top: 118px;
-}
+
 .future_bg_img {
   background-image: url(./assets/images/png/future-bg-img.png);
   background-size: 100% 100%;
-  /* position: absolute; */
 }
 
 .bg_no_repate {
@@ -309,19 +283,16 @@
 }
 
 .pos_blasting1 {
-  top: 20%;
-  right: 0;
+  top: 24%;
 }
 
 .pos_blasting2 {
-  top: 40%;
+  top: 44%;
 }
 
 .pos_underlayer1 {
   top: -1px;
 }
-
-
 
 
 @media (max-width:991.99px) {
@@ -376,15 +347,28 @@
   }
 }
 
-@media (max-width:1200px) {
-  .opacity_30 {
-    opacity: 10%;
-  }
-}
-
 @media (min-width:576px) {
+  :root {
+    --fs-sm: 18px;
+    --fs-2md: 24px;
+    --fs-2xl: 40px;
+  }
+
+  .lh_sm_27 {
+    line-height: 27px;
+  }
+
   .max_w_sm_400 {
     max-width: 400px;
+  }
+
+  .max_w_sm_435 {
+    max-width: 435px;
+  }
+
+  .py_sm_144_73 {
+    padding-top: 144px;
+    padding-bottom: 73px;
   }
 }
 
@@ -427,6 +411,19 @@
     margin-top: 80px !important;
   }
 
+  .mt_lg_100 {
+    margin-top: 100px !important;
+  }
+
+  .py_lg_190_120 {
+    padding-top: 190px;
+    padding-bottom: 120px;
+  }
+
+  .pb_lg_300 {
+    padding-bottom: 160px;
+  }
+
   .mx_45 {
     margin-left: 45px;
     margin-right: 45px;
@@ -442,6 +439,55 @@
 
   .max_w_518 {
     max-width: 518px;
+  }
+
+  .max_w_588 {
+    max-width: 588px;
+  }
+
+  .end_0 {
+    right: 0;
+  }
+
+  .position_absolute {
+    position: absolute;
+  }
+}
+
+@media (min-width:1200px) {
+  .mt_xl_293 {
+    margin-top: 293px !important;
+  }
+
+  .mt_xl_175 {
+    margin-top: 175px;
+  }
+
+  .py_xl_260_137 {
+    padding-top: 260px;
+    padding-bottom: 137px;
+  }
+
+  .pos_blasting2 {
+    top: 52%;
+  }
+}
+
+@media (min-width:1400px) {
+  .max_w_xxl_728 {
+    max-width: 728px;
+  }
+
+  .max_w_xxl_641 {
+    max-width: 641px !important;
+  }
+
+  .pos_blasting1 {
+    top: 17%;
+  }
+
+  .pos_blasting2 {
+    top: 43%;
   }
 }
 
