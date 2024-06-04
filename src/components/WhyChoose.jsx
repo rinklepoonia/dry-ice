@@ -4,7 +4,7 @@ import car2 from '../assets/images/png/whyChoose2.png'
 import car3 from '../assets/images/png/whyChoose3.png'
 import car4 from '../assets/images/png/whyChoose4.png'
 import whyChooseImg from '../assets/images/png/whyChoose-Img.png'
-import layer3 from '../assets/images/png/layer3.png'
+
 
 
 function WhyChoose() {
@@ -48,7 +48,7 @@ function WhyChoose() {
                     </div>
                 </div>
             </div>
-            <img className='w-100' src={layer3} alt="layer3" />
+          
         </div>
     )
 }

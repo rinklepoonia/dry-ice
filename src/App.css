@@ -299,6 +299,29 @@
   margin-top: -39px;
 }
 
+/* ============behind======== */
+.behind_bg_img {
+  background-image: url(./assets/images/png/behind-bg-img.png);
+  background-size: 100% 100%;
+}
+
+.mt_2 {
+  margin-top: -2px;
+}
+
+.pos_playbtn {
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.max_w_25 {
+  max-width: 25px;
+}
+.cursor_pointer{
+  cursor: pointer;
+}
+
 @media (max-width:991.99px) {
   .z_6 {
     z-index: 6;
@@ -403,6 +426,10 @@
 
   .h_md_954 {
     height: 954px;
+  }
+
+  .max_w_md_60 {
+    max-width: 60px;
   }
 }
 
