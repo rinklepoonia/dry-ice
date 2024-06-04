@@ -9,6 +9,7 @@ import BehindSection from './components/BehindSection';
 import LetsTalk from './components/LetsTalk';
 import Quote from './components/Quote';
 import Meeteam from './components/Meeteam';
+import StillUnsure from './components/StillUnsure';
 
 function App() {
   return (
@@ -20,7 +21,8 @@ function App() {
       <BehindSection />
       <LetsTalk />
       <Quote />
-      <Meeteam/>
+      <Meeteam />
+      <StillUnsure/>
     </div>
   );
 }

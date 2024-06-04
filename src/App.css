@@ -427,7 +427,9 @@
 .mt_140 {
   margin-top: -140px !important;
 }
-
+.mt_100{
+  margin-top: -100px;
+}
 @media (max-width:991.99px) {
   .z_6 {
     z-index: 6;
