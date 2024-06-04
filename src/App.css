@@ -64,6 +64,7 @@
   --clr-white: #FFFFFF;
   --clr-grey: #636363;
   --clr-lightblue: #E3FAFF0D;
+  --clr-shadawWhite: #0000001A;
   --clr-orange: #FA6A00;
   --clr-shadawOrange: #FA6A0099;
   --clr-boxOrange: #FB842CB2;
@@ -512,6 +513,22 @@
   max-width: 966px;
 }
 
+/* ==========latest========= */
+.max_w_323 {
+  max-width: 323px;
+}
+
+.latest_box {
+  padding: 10px 10px 24px 10px;
+  box-shadow: 0px 0px 12px 0px var(--clr-shadawWhite);
+  background: var(--clr-white);
+  width: 364px;
+}
+
+.latest_rowGap {
+  row-gap: 15px;
+}
+
 @media (max-width:991.99px) {
   .z_6 {
     z-index: 6;
@@ -562,7 +579,8 @@
     display: block;
     transition: 300ms linear;
   }
-  .neg_margin{
+
+  .neg_margin {
     margin-top: -43px;
     margin-bottom: -38px;
   }
