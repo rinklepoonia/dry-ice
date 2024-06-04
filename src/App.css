@@ -69,6 +69,14 @@
   --clr-boxOrange: #FB842CB2;
   --clr-boxShadawOrange: #FA6A00CC;
   --clr-blue: #101A2E;
+  --clr-lightGrey: #F3F3F4;
+  --clr-lightWhite: #CFD1D5;
+  --clr-borderGrey: #101A2E33;
+  --clr-greyborder: #585F6D;
+}
+
+.color_greyBorder {
+  color: var(--clr-greyborder);
 }
 
 .bg_white {
@@ -427,9 +435,77 @@
 .mt_140 {
   margin-top: -140px !important;
 }
-.mt_100{
+
+.mt_100 {
   margin-top: -100px;
 }
+
+/* ============still-unsure-accordian============== */
+.mt_10{
+  margin-top: 10px;
+}
+.accordion-button {
+  color: var(--clr-blue) !important;
+  font-size: var(--fs-2md) !important;
+  background: var(--clr-lightGrey) !important;
+  border: 1px solid var(--clr-borderGrey) !important;
+  padding: 24px 30px !important;
+  border-radius: 14px !important;
+}
+
+.accordion-button:focus {
+  box-shadow: none !important;
+}
+
+.accordion-button:not(.collapsed) {
+  background: var(--clr-blue) !important;
+  color: var(--clr-white) !important;
+  border: 1px solid transparent !important;
+  box-shadow: none !important;
+  padding: 24px 30px 12px 30px !important;
+}
+
+.accordion-body {
+  background: var(--clr-blue) !important;
+  color: var(--clr-lightWhite) !important;
+  margin-top: -1px !important;
+  padding: 0 30px 24px 30px !important;
+  border-radius: 14px !important;
+}
+
+.accordion-item {
+  background: var(--clr-blue) !important;
+  margin-bottom: 20px;
+  border-radius: 14px !important;
+}
+
+.accordion-button::after {
+  background-image: url(./assets/images/svg/positive-icon.svg) !important;
+}
+
+.accordion-button:not(.collapsed)::after {
+  background-image: url(./assets/images/svg/-ve-btn.svg) !important;
+}
+
+.diffQues_box {
+  background: var(--clr-lightGrey);
+  border: 1px solid var(--clr-borderGrey);
+  border-radius: 14px;
+  padding: 16px;
+}
+
+.white_input_box {
+  border: 1px solid var(--clr-borderGrey) !important;
+  background: var(--clr-white);
+  height: 152px;
+  padding: 16px;
+  border-radius: 16px;
+}
+
+.outline_none {
+  outline: none;
+}
+
 @media (max-width:991.99px) {
   .z_6 {
     z-index: 6;
@@ -622,6 +698,10 @@
 
   .quote_box {
     padding: 37px 185px;
+  }
+
+  .diffQues_box {
+    padding: 16px 30px 38px 30px;
   }
 }
 
