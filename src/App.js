@@ -6,6 +6,8 @@ import Future from './components/Future';
 import Understanding from './components/Understanding';
 import WhyChoose from './components/WhyChoose';
 import BehindSection from './components/BehindSection';
+import LetsTalk from './components/LetsTalk';
+import Quote from './components/Quote';
 
 function App() {
   return (
@@ -14,7 +16,9 @@ function App() {
       <Future />
       <Understanding />
       <WhyChoose />
-      <BehindSection/>
+      <BehindSection />
+      <LetsTalk />
+      <Quote/>
     </div>
   );
 }
