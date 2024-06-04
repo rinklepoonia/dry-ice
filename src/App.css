@@ -441,9 +441,10 @@
 }
 
 /* ============still-unsure-accordian============== */
-.mt_10{
+.mt_10 {
   margin-top: 10px;
 }
+
 .accordion-button {
   color: var(--clr-blue) !important;
   font-size: var(--fs-2md) !important;
@@ -506,6 +507,11 @@
   outline: none;
 }
 
+/* =========blast======= */
+.max_w_966 {
+  max-width: 966px;
+}
+
 @media (max-width:991.99px) {
   .z_6 {
     z-index: 6;
@@ -555,6 +561,10 @@
     background: black;
     display: block;
     transition: 300ms linear;
+  }
+  .neg_margin{
+    margin-top: -43px;
+    margin-bottom: -38px;
   }
 }
 
