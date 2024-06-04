@@ -419,6 +419,15 @@
   padding: 17px;
 }
 
+/* ===========meet-team=========== */
+.max_W_300 {
+  max-width: 300px;
+}
+
+.mt_140 {
+  margin-top: -140px !important;
+}
+
 @media (max-width:991.99px) {
   .z_6 {
     z-index: 6;
@@ -521,12 +530,20 @@
     margin-top: 40px;
   }
 
+  .mt_194 {
+    margin-top: -194px !important;
+  }
+
   .h_md_954 {
     height: 954px;
   }
 
   .max_w_md_60 {
     max-width: 60px;
+  }
+
+  .max_w_md_461 {
+    max-width: 461px;
   }
 }
 
@@ -583,6 +600,10 @@
 
   .max_w_588 {
     max-width: 588px;
+  }
+
+  .max_w_613 {
+    max-width: 613px;
   }
 
   .max_w_451 {
@@ -662,3 +683,5 @@
     max-width: 1140px !important;
   }
 }
+
+@media (min-width:576px) and (max-width:991.99px) {}

@@ -8,6 +8,7 @@ import WhyChoose from './components/WhyChoose';
 import BehindSection from './components/BehindSection';
 import LetsTalk from './components/LetsTalk';
 import Quote from './components/Quote';
+import Meeteam from './components/Meeteam';
 
 function App() {
   return (
@@ -18,7 +19,8 @@ function App() {
       <WhyChoose />
       <BehindSection />
       <LetsTalk />
-      <Quote/>
+      <Quote />
+      <Meeteam/>
     </div>
   );
 }
