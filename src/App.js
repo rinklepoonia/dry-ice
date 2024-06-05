@@ -12,6 +12,7 @@ import Meeteam from './components/Meeteam';
 import StillUnsure from './components/StillUnsure';
 import Blast from './components/Blast';
 import LatestSection from './components/LatestSection';
+import MailBox from './components/MailBox';
 
 function App() {
   return (
@@ -26,7 +27,8 @@ function App() {
       <Meeteam />
       <StillUnsure />
       <Blast />
-      <LatestSection/>
+      <LatestSection />
+      <MailBox />
     </div>
   );
 }

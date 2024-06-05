@@ -52,7 +52,7 @@
 
 :root {
   --fs-xxs: 14px;
-  --fs-xs: 16px;
+  --fs-xs: 14px;
   --fs-sm: 16px;
   --fs-md: 20px;
   --fs-2md: 20px;
@@ -518,6 +518,10 @@
   max-width: 323px;
 }
 
+.pb_58 {
+  padding-bottom: 58px;
+}
+
 .latest_box {
   padding: 10px 10px 24px 10px;
   box-shadow: 0px 0px 12px 0px var(--clr-shadawWhite);
@@ -527,6 +531,44 @@
 
 .latest_rowGap {
   row-gap: 15px;
+}
+
+/* ==========mailBox======= */
+.max_w_121 {
+  max-width: 121px;
+}
+
+.max_w_55 {
+  max-width: 55px;
+}
+
+.pt_80 {
+  padding-top: 80px;
+}
+
+.mailBox {
+  background: var(--clr-blue);
+  box-shadow: 0px 2px 34px 0px var(--clr-shadawWhite);
+  max-width: 958px;
+  padding: 50px 20px 20px 20px;
+  border-radius: 42px;
+}
+
+.pos_mailBox {
+  top: -30px;
+}
+
+.border_none {
+  border: 1px solid transparent;
+}
+
+.input_modification {
+  background: var(--clr-white);
+  outline: none;
+  max-width: 505px;
+  width: 100%;
+  border-radius: 47px;
+  padding: 0 5px 0 20px;
 }
 
 @media (max-width:991.99px) {
@@ -588,6 +630,7 @@
 
 @media (min-width:576px) {
   :root {
+    --fs-xs: 16px;
     --fs-sm: 18px;
     --fs-2md: 24px;
     --fs-2xl: 40px;
@@ -648,8 +691,16 @@
     max-width: 60px;
   }
 
+  .max_w_md_80 {
+    max-width: 80px;
+  }
+
   .max_w_md_461 {
     max-width: 461px;
+  }
+
+  .pos_mailBox {
+    top: -51px;
   }
 }
 
@@ -730,6 +781,10 @@
 
   .diffQues_box {
     padding: 16px 30px 38px 30px;
+  }
+
+  .mailBox {
+    padding: 68px 227px 40px 227px;
   }
 }
 

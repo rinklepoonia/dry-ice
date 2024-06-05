@@ -5,7 +5,7 @@ import latest3Img from '../assets/images/png/latestImg3.png'
 
 function LatestSection() {
     return (
-        <div>
+        <div className='pb_58'>
             <div className="container">
                 <h2 className='ff_titling fw-bold text48_2xl lh_lg_57 lh_39 color_blue text-center mb-3'>Latest News & Insights</h2>
                 <p className='ff_acmin fw-normal text16_xs lh_24 color_blue opacity_70 mb-5 text-center'>Uncover the latest insights and innovation in car care.</p>
