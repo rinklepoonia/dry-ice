@@ -4,7 +4,7 @@ import tiksvg from '../assets/images/svg/mail-tik-svg.svg'
 
 function MailBox() {
     return (
-        <div className='pt_80'>
+        <div className='pt_80 mb_100'>
             <div className="container">
                 <div className="mailBox d-flex flex-column align-items-center position-relative mx-auto">
                     <div className='position-absolute pos_mailBox'><img className='w-100 max_w_md_80 max_w_55' src={mailImg} alt="mailImg" /></div>

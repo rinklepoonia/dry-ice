@@ -13,6 +13,8 @@ import StillUnsure from './components/StillUnsure';
 import Blast from './components/Blast';
 import LatestSection from './components/LatestSection';
 import MailBox from './components/MailBox';
+import FooterSection from './components/FooterSection';
+import Map from './components/Map'
 
 function App() {
   return (
@@ -29,6 +31,9 @@ function App() {
       <Blast />
       <LatestSection />
       <MailBox />
+      <Map />
+      <FooterSection />
+
     </div>
   );
 }
