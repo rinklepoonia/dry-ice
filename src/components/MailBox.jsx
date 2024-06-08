@@ -12,7 +12,7 @@ function MailBox() {
                     <p className='ff_acmin fw-normal text16_xs lh_24 color_white opacity_90 mb-lg-4 mb-2'>Get news, videos and deals straight to your inbox.</p>
                     <div className='d-flex justify-content-between input_modification mb-lg-4 mb-3'>
                         <input type="text" placeholder='Enter your email address ' className='ff_acmin fw-normal text16_xs lh_22 color_blue opacity_80 outline_none border_none bg-transparent w-100' />
-                        <button className='ff_acmin fw-bold text16_xs lh_19 color_white btn_property max_w_121 w-100'>Subscribe</button>
+                        <button className='ff_acmin fw-bold text16_xs lh_19 color_white btn_property max_w_121 w-100 transition btn_hover'>Subscribe</button>
                     </div>
                     <div className='d-flex align-items-center gap-2'>
                         <img src={tiksvg} alt="tiksvg" />

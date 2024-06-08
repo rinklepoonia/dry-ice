@@ -47,9 +47,10 @@ function Future() {
                     </div>
                     <div>
                         <p className='ff_acmin fw-bold text16_xs lh_24 color_blue text-center mt_lg_80 mb-md-4 mb-sm-3 mb-1'>Like What You See? Get an Instant Quote</p>
-                        <div className='text-center'>
-                            <ComnBtn className="Get Instant Quote" />
+                        <div className='mx-auto text-center max_w_172 mb-3'>
+                            <button className='ff_acmin fw-bold text16_xs lh_19 color_white btn_property d-md-block d-none btn_hover transition text-center'>Get Instant Quote</button>
                         </div>
+
                     </div>
                 </div>
             </div>

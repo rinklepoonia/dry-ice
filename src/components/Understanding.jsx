@@ -6,7 +6,7 @@ import dryBlasting2 from '../assets/images/png/understanding2.png'
 
 function Understanding() {
     return (
-        <section>
+        <div id='aboutUs'>
             <div className='bg_orange position-relative'>
                 <img className='w-100 position-absolute pos_underlayer1' src={TopLayerImg} alt="TopLayerImg" />
                 <div className='container'>
@@ -35,10 +35,9 @@ function Understanding() {
                         </div>
                     </div>
                 </div>
-               <img className='w-100' src={layerImg2} alt="layerImg2" />
+                <img className='w-100' src={layerImg2} alt="layerImg2" />
             </div>
-
-        </section>
+        </div>
     )
 }
 

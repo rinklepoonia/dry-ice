@@ -17,7 +17,7 @@ function BehindSection() {
                     <div className='position-absolute pos_playbtn'><img className='max_w_md_60 max_w_25 cursor_pointer' src={playBtn} alt="playBtn" /></div>
                 </div>
                 <p className='ff_acmin fw-bold text16_xs lh_24 color_white mt-4 pt-lg-3 pt-0 text-center'>Discover a cleaner, fresher, and more beautiful car, inside and out, with our advanced dry ice blasting services.</p>
-                <div className='text-center'><button className='ff_acmin fw-bold text16_xs lh_19 color_white btn_property '>Get Instant Quote</button></div>
+                <div className='text-center'><button className='ff_acmin fw-bold text16_xs lh_19 color_white btn_property btn_hover transition'>Get Instant Quote</button></div>
             </div>
             <img className='w-100' src={layer4} alt="layer4" />
         </div>

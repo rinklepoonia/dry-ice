@@ -9,7 +9,7 @@ import whyChooseImg from '../assets/images/png/whyChoose-Img.png'
 
 function WhyChoose() {
     return (
-        <div className='bg_white position-relative mt_sm_60 mt_39'>
+        <div id='servise' className='bg_white position-relative mt_sm_60 mt_39'>
             <div className="container">
                 <h2 className='ff_titling fw-bold text48_2xl lh_lg_57 lh_39 color_blue text-center mb-lg-5 mb-3'>Why Choose Dry Ice Blasting for Your Car?</h2>
                 <div className="row flex-lg-row flex-column-reverse align-items-center mb_xl_121 mb_lg_50">
@@ -48,7 +48,7 @@ function WhyChoose() {
                     </div>
                 </div>
             </div>
-          
+
         </div>
     )
 }

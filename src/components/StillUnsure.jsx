@@ -3,7 +3,7 @@ import blasttopLayer from '../assets/images/png/blast-top-layer.png'
 
 function StillUnsure() {
     return (
-        <div>
+        <div id='faq'>
             <div className="container">
                 <h2 className='ff_titling fw-bold  text48_2xl lh_lg_57 lh_39 color_blue text-center mb-5'>Still Unsure? Check Out These FAQs</h2>
                 <div class="accordion" id="accordionExample">
@@ -119,7 +119,7 @@ function StillUnsure() {
                 <div className='diffQues_box mb-lg-5'>
                     <p className='ff_acmin fw-bold text24_2md lh_33 color_blue'>Have a Different Question? Contact Us Today</p>
                     <textarea name="" id="" className='ff_acmin fw-normal text16_xs lh_24 color_greyBorder outline_none w-100 white_input_box' placeholder='Type something...'></textarea>
-                    <button className='ff_acmin fw-bold text16_xs lh_19 color_white btn_property mt_md_40 mt_10'>Submit Now</button>
+                    <button className='ff_acmin fw-bold text16_xs lh_19 color_white btn_property mt_md_40 mt_10 btn_hover transition'>Submit Now</button>
                 </div>
             </div>
             <img className='w-100' src={blasttopLayer} alt="blasttopLayer" />
