@@ -57,8 +57,8 @@ function Hero() {
             <div data-aos="zoom-in" id='home' className='d-flex flex-column justify-content-center align-items-center flex_grow_1'>
                 <div className='container'>
                     <div className='pt_md_87 pt_35 d-flex flex-column align-items-center'>
-                        <h1 className='ff_titling fw-bold text96_3xl lh_lg_115 lh_md_90 lh_65 color_white max_w_730 text-center mb-md-3 mb-0'>Automotive Dry <span className='d-lg-block'>Ice Cleaning</span></h1>
-                        <p className='ff_acmin fw-normal text20_md lh_30 color_white max_w_730 text-center mb-4 pb-lg-3 pb-0'>Discover the ultimate clean for your machine.
+                        <h1 className='ff_titling fw-bold text96_3xl lh_lg_115 lh_md_90 lh_65 color_white max_w_730 text-center mb-md-3 mb-4'>Automotive Dry <span className='d-lg-block'>Ice Cleaning</span></h1>
+                        <p className='ff_acmin fw-normal text20_md lh_30 color_white max_w_730 text-center mb-md-4 mb-0 pb-lg-3 pb-0'>Discover the ultimate clean for your machine.
                             <span className='d-lg-block'>No chemicals, no abrasives and no drama.</span></p>
                         <button className='ff_acmin fw-bold text16_xs lh_19 color_white btn_property d-md-block d-none btn_hover transition'>Get Instant Quote</button>
                         <div className='d-flex flex-wrap align-items-center justify-content-center gap_28 mt_md_40 mt_20 no_box'>
