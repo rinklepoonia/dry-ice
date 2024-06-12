@@ -32,7 +32,7 @@ function App() {
     Aos.refresh()
   });
   return (
-    <div>
+    <div className='overflow-hidden'>
       <Hero />
       <Future />
       <Understanding />
