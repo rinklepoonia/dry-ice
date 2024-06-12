@@ -48,7 +48,6 @@ function App() {
       <MailBox />
       <Map />
       <FooterSection />
-
     </div>
   );
 }
