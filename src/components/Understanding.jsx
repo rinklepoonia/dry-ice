@@ -10,7 +10,7 @@ function Understanding() {
             <div className='bg_orange position-relative'>
                 <img className='w-100 position-absolute pos_underlayer1' src={TopLayerImg} alt="TopLayerImg" />
                 <div className='container'>
-                    <h1 className='ff_titling fw-bold text48_2xl lh_37 color_white text-center py_xl_260_137 py_lg_190_120 py_sm_144_73 py_73_45 mb-0'>Understanding Dry Ice Blasting</h1>
+                    <h1 className='ff_titling fw-bold text48_2xl lh_37 color_white text-center py_xl_260_137 py_lg_190_120 py_sm_144_50 py_73_45 mb-0'>Understanding Dry Ice Blasting</h1>
                     {/* ==========row1======== */}
                     <div className='row flex-lg-row flex-column-reverse'>
                         <div className='col-lg-6 mt-lg-0 mt-sm-4 mt-3'>
@@ -24,7 +24,7 @@ function Understanding() {
                         </div>
                     </div>
                     {/* =======row2========= */}
-                    <div className="row pb_lg_300">
+                    <div className="row pb_xl_160">
                         <div className="col-lg-6 d-flex justify-content-center">
                             <div className='position_absolute pos_blasting2 start-0'>
                                 <img className='w-100 max_w_xxl_641 max_w_sm_400 max_w_240' src={dryBlasting2} alt="dryBlasting2" /></div>

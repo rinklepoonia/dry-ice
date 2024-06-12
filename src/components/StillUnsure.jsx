@@ -5,11 +5,11 @@ function StillUnsure() {
     return (
         <div id='faq'>
             <div className="container">
-                <h2 className='ff_titling fw-bold  text48_2xl lh_lg_57 lh_39 color_blue text-center mb-5'>Still Unsure? Check Out These FAQs</h2>
+                <h2 className='ff_titling fw-bold  text48_2xl lh_lg_57 lh_39 color_blue text-center mb-md-5 mb-3'>Still Unsure? Check Out These FAQs</h2>
                 <div class="accordion" id="accordionExample">
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="headingOne">
-                            <button class="accordion-button ff_acmin fw-bold lh_33" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            <button class="accordion-button ff_acmin fw-bold lh_md_33 lh_25" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                                 What types of vehicles are best suited for dry ice blasting?
                             </button>
                         </h2>
@@ -21,7 +21,7 @@ function StillUnsure() {
                     </div>
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="headingTwo">
-                            <button class="accordion-button collapsed ff_acmin fw-bold lh_33" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            <button class="accordion-button collapsed ff_acmin fw-bold  lh_md_33 lh_25" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                                 How often should I use dry ice blasting for optimal vehicle maintenance?
                             </button>
                         </h2>
@@ -33,7 +33,7 @@ function StillUnsure() {
                     </div>
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="headingThree">
-                            <button class="accordion-button collapsed ff_acmin fw-bold lh_33" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            <button class="accordion-button collapsed ff_acmin fw-bold  lh_md_33 lh_25" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                                 Can dry ice blasting be used on vehicle interiors?
                             </button>
                         </h2>
@@ -45,7 +45,7 @@ function StillUnsure() {
                     </div>
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="headingFoure">
-                            <button class="accordion-button collapsed ff_acmin fw-bold lh_33" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFoure" aria-expanded="false" aria-controls="collapseFoure">
+                            <button class="accordion-button collapsed ff_acmin fw-bold  lh_md_33 lh_25" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFoure" aria-expanded="false" aria-controls="collapseFoure">
                                 Can dry ice blasting be used on vehicle interiors?
                             </button>
                         </h2>
@@ -57,7 +57,7 @@ function StillUnsure() {
                     </div>
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="headingFive">
-                            <button class="accordion-button collapsed ff_acmin fw-bold lh_33" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                            <button class="accordion-button collapsed ff_acmin fw-bold  lh_md_33 lh_25" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
                                 Can dry ice blasting be used on vehicle interiors?
                             </button>
                         </h2>
@@ -69,7 +69,7 @@ function StillUnsure() {
                     </div>
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="headingSix">
-                            <button class="accordion-button collapsed ff_acmin fw-bold lh_33" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                            <button class="accordion-button collapsed ff_acmin fw-bold  lh_md_33 lh_25" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
                                 Can dry ice blasting be used on vehicle interiors?
                             </button>
                         </h2>
@@ -81,7 +81,7 @@ function StillUnsure() {
                     </div>
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="headingSeven">
-                            <button class="accordion-button collapsed ff_acmin fw-bold lh_33" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                            <button class="accordion-button collapsed ff_acmin fw-bold  lh_md_33 lh_25" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
                                 Can dry ice blasting be used on vehicle interiors?
                             </button>
                         </h2>
@@ -93,7 +93,7 @@ function StillUnsure() {
                     </div>
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="headingEight">
-                            <button class="accordion-button collapsed ff_acmin fw-bold lh_33" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                            <button class="accordion-button collapsed ff_acmin fw-bold  lh_md_33 lh_25" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
                                 Can dry ice blasting be used on vehicle interiors?
                             </button>
                         </h2>
@@ -105,7 +105,7 @@ function StillUnsure() {
                     </div>
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="headingNine">
-                            <button class="accordion-button collapsed ff_acmin fw-bold lh_33" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+                            <button class="accordion-button collapsed ff_acmin fw-bold  lh_md_33 lh_25" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
                                 Can dry ice blasting be used on vehicle interiors?
                             </button>
                         </h2>

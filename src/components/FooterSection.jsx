@@ -13,22 +13,22 @@ function FooterSection() {
     <div id='contact' className='bg_blue'>
       <div className="container">
         <div className='d-flex align-items-center justify-content-between gap-4 pt_38_57 mb-md-0 mb-3 mt-md-0 pt-4 overflow-x-auto'>
-          <div className='d-flex align-items-center gap-2'>
+          <a href="https://www.google.com/maps" target='_blank'className='d-flex align-items-center gap-2'>
             <img src={footerLocation} alt="footerLocation" />
             <p className='ff_acmin fw-normal text16_xs lh_24 color_white opacity_70 mb-0 text-nowrap info_hover'>Crawley Mill Industrial Estate, Witney, Oxfordshire</p>
-          </div>
-          <div className='d-flex align-items-center gap-2'>
+          </a>
+          <a href="mailto:@example.com" target='_blank' className='d-flex align-items-center gap-2'>
             <img src={footerMess} alt="footerMess" />
             <p className='ff_acmin fw-normal text16_xs lh_24 color_white opacity_70 mb-0 text-nowrap info_hover'>book@dryiceblastingpro.co.uk</p>
-          </div>
-          <div className='d-flex align-items-center gap-2'>
+          </a>
+          <a href="Tel: 123-456-7890" target='_blank' className='d-flex align-items-center gap-2'>
             <img src={footerCall} alt="footerCall" />
             <p className='ff_acmin fw-normal text16_xs lh_24 color_white opacity_70 mb-0 text-nowrap info_hover'>01865123456</p>
-          </div>
-          <div className='d-flex align-items-center gap-2'>
+          </a>
+          <a href='' className='d-flex align-items-center gap-2'>
             <img src={footertime} alt="footertime" />
             <p className='ff_acmin fw-normal text16_xs lh_24 color_white opacity_70 mb-0 text-nowrap info_hover'>Mon - Fri: 9am to 5pm</p>
-          </div>
+          </a>
         </div>
         <div className="row mb-5">
           <div className="col-lg-5">
@@ -54,7 +54,7 @@ function FooterSection() {
                   <li className='mb-2 pb-1'><a href="" className='ff_acmin fw-normal text16_xs lh_25 color_white opacity_70 underline'>Privacy Policy</a></li>
                 </ul>
               </div>
-              <div className="col-sm-4 col-6 d-flex justify-content-lg-center mt-sm-0 mt-4">
+              <div className="col-sm-4 col-6 d-flex justify-content-lg-center justify-content-sm-end mt-sm-0 mt-4 justify_content_center">
                 <ul className='mb-0 ps-0'>
                   <li className='ff_acmin fw-bold text18_sm lh_27 color_white mb-md-3 mb-1'>Follow us</li>
 
@@ -70,7 +70,7 @@ function FooterSection() {
                     </div>
                     <li className='ff_Acmin fw-normal text16_xs lh_24 color_white opacity_70 mb-0 clr_change underline'>Tiktok</li>
                   </a>
-                  <a href="https://www.tiktok.com/foryou?lang=en" target='_blank' className='d-flex align-items-center gap-2 mb-3 iconhover transition'>
+                  <a href="https://www.tiktok.com/foryou?lang=en" target='_blank' className='d-flex align-items-center gap-2 mb-0 iconhover transition'>
                     <div className='IconBox d-flex justify-content-center align-items-center transition'>
                       <YouTubeSvg />
                     </div>

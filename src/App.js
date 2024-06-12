@@ -1,3 +1,4 @@
+import React, { useEffect } from 'react'
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.js';
@@ -15,8 +16,21 @@ import LatestSection from './components/LatestSection';
 import MailBox from './components/MailBox';
 import FooterSection from './components/FooterSection';
 import Map from './components/Map'
+import Slider from './components/Slider';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import Aos from 'aos';
 
 function App() {
+  useEffect(() => {
+    AOS.init(
+      {
+        // once: true,
+        duration: 1200,
+      }
+    );
+    Aos.refresh()
+  });
   return (
     <div>
       <Hero />
@@ -26,6 +40,7 @@ function App() {
       <BehindSection />
       <LetsTalk />
       <Quote />
+      <Slider />
       <Meeteam />
       <StillUnsure />
       <Blast />

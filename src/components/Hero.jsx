@@ -9,29 +9,34 @@ import ComnBtn from './ComnBtn'
 
 function Hero() {
     const [nav, setnav] = useState(false)
+    if (nav === true) {
+        document.body.classList.add("overflow_hidden");
+    } else {
+        document.body.classList.remove("overflow_hidden");
+    }
     return (
         <div className='hero_bg_img min_vh_100 h_md_954 h_750 d_flex flex-column'>
             <div className="container">
                 <div className='d-flex justify-content-between py_14 mx_45 gap-4 overflow-x-auto'>
-                    <div className='d-flex align-items-center gap-2'>
+                    <a href="https://www.google.com/maps" target='_blank' className='d-flex align-items-center gap-2'>
                         <img src={LocationImg} alt="LocationImg" />
                         <p className='ff_acmin fw-normal text16_xs lh_24 color_white opacity_70 mb-0 text-nowrap info_hover transition'>Crawley Mill Industrial Estate, Witney, Oxfordshire </p>
-                    </div>
-                    <div className='d-flex align-items-center gap-2'>
+                    </a>
+                    <a href="mailto:@example.com" className='d-flex align-items-center gap-2'>
                         <img src={mailImg} alt="mailImg" />
                         <p className='ff_acmin fw-normal text16_xs lh_24 color_white opacity_70 mb-0 text-nowrap info_hover transition'>book@dryiceblastingpro.co.uk</p>
-                    </div>
-                    <div className='d-flex align-items-center gap-2'>
+                    </a>
+                    <a href="Tel: 123-456-7890" className='d-flex align-items-center gap-2'>
                         <img src={calImg} alt="calImg" />
                         <p className='ff_acmin fw-normal text16_xs lh_24 color_white opacity_70 mb-0 text-nowrap info_hover transition'>01865123456 </p>
-                    </div>
-                    <div className='d-flex align-items-center gap-2'>
+                    </a>
+                    <a href="" className='d-flex align-items-center gap-2'>
                         <img src={timerImg} alt="timerImg" />
                         <p className='ff_acmin fw-normal text16_xs lh_24 color_white opacity_70 mb-0 text-nowrap info_hover transition'>Mon - Fri: 9am to 5pm</p>
-                    </div>
-                </div>  
+                    </a>
+                </div>
                 <div className='nav_property d-flex justify-content-between align-items-center'>
-                    <img src={pagelogo} alt="pagelogo" />
+                    <a href=""> <img src={pagelogo} alt="pagelogo" /></a>
                     <ul className={`${nav ? "end-0" : "right_100"} mobile_view d-flex gap_24 ps-0 mb-0`}>
                         <li><a href="#home" className='ff_acmin fw-bold text16_xs lh_19 color_grey text-nowrap nav_hover transition'>Home</a></li>
                         <li><a href="#aboutUs" className='ff_acmin fw-bold text16_xs lh_19 color_grey text-nowrap nav_hover transition'>About us</a></li>
@@ -49,7 +54,7 @@ function Hero() {
                     </div>
                 </div>
             </div>
-            <div id='home' className='d-flex flex-column justify-content-center align-items-center flex_grow_1'>
+            <div data-aos="zoom-in" id='home' className='d-flex flex-column justify-content-center align-items-center flex_grow_1'>
                 <div className='container'>
                     <div className='pt_md_87 pt_35 d-flex flex-column align-items-center'>
                         <h1 className='ff_titling fw-bold text96_3xl lh_lg_115 lh_md_90 lh_65 color_white max_w_730 text-center mb-md-3 mb-0'>Automotive Dry <span className='d-lg-block'>Ice Cleaning</span></h1>
