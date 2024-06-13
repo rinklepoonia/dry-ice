@@ -449,13 +449,16 @@
   width: 100%;
   height: 100%;
   filter: brightness(50%);
+}
 
+.slider-car.swiper-slide-active img {
+  filter: none !important;
 }
 
 .slider-car.swiper-slide-active {
   border: 4px solid var(--clr-golden);
   border-radius: 26px;
-  filter: none;
+  /* filter: none; */
 
 }
 
@@ -505,6 +508,11 @@
 
 .mt_1 {
   margin-top: -1px;
+}
+
+.teamEllip_position {
+  top: -160px;
+  left: -155px;
 }
 
 /* ============still-unsure-accordian============== */
@@ -579,6 +587,11 @@
   max-width: 966px;
 }
 
+.neg_margin {
+  margin-top: -100px;
+  margin-bottom: -56px;
+}
+
 /* ==========latest========= */
 .max_w_323 {
   max-width: 323px;
@@ -589,6 +602,7 @@
   box-shadow: 0px 0px 12px 0px var(--clr-shadawWhite);
   background: var(--clr-white);
   width: 364px;
+  border-radius: 16px;
 }
 
 .latest_rowGap {
@@ -608,8 +622,8 @@
   max-width: 55px;
 }
 
-.pt_80 {
-  padding-top: 80px;
+.pt_60 {
+  padding-top: 60px;
 }
 
 .mailBox {
@@ -675,6 +689,11 @@ input[type="checkbox"]:checked {
 /* ========footer========= */
 ::-webkit-scrollbar {
   display: none;
+}
+
+.py_22_5 {
+  padding-top: 22px;
+  padding-bottom: 5px;
 }
 
 .max_w_85 {
@@ -855,10 +874,6 @@ input[type="checkbox"]:checked {
     line-height: 33px;
   }
 
-  .pb_58 {
-    padding-bottom: 58px;
-  }
-
   .no_box {
     padding: 23px 50px;
   }
@@ -872,8 +887,16 @@ input[type="checkbox"]:checked {
     padding-bottom: 57px;
   }
 
+  .pt_md_110 {
+    padding-top: 110px;
+  }
+
   .mt-100 {
     margin-top: -100px;
+  }
+
+  .mt_md_37 {
+    margin-top: 37px;
   }
 
   .mt_md_40 {
@@ -952,8 +975,6 @@ input[type="checkbox"]:checked {
     padding-bottom: 120px;
   }
 
-
-
   .mx_45 {
     margin-left: 45px;
     margin-right: 45px;
@@ -1030,6 +1051,10 @@ input[type="checkbox"]:checked {
     padding-bottom: 160px;
   }
 
+  .pb_xl_58 {
+    padding-bottom: 58px;
+  }
+
   .pos_blasting2 {
     top: 52%;
   }
@@ -1060,6 +1085,11 @@ input[type="checkbox"]:checked {
   .pos_rightArrow {
     top: 40%;
     right: 7%;
+  }
+
+  .py_xxl_100 {
+    padding-top: 100px;
+    padding-bottom: 100px;
   }
 }
 

@@ -12,7 +12,7 @@ function FooterSection() {
   return (
     <div id='contact' className='bg_blue'>
       <div className="container">
-        <div className='d-flex align-items-center justify-content-between gap-4 pt_38_57 mb-md-0 mb-3 mt-md-0 pt-4 overflow-x-auto'>
+        <div className='d-flex align-items-center justify-content-between gap-4 pt_38_57 py_22_5 mb-md-0 mb-3 mt-md-0 overflow-x-auto'>
           <a href="https://www.google.com/maps" target='_blank'className='d-flex align-items-center gap-2'>
             <img src={footerLocation} alt="footerLocation" />
             <p className='ff_acmin fw-normal text16_xs lh_24 color_white opacity_70 mb-0 text-nowrap info_hover'>Crawley Mill Industrial Estate, Witney, Oxfordshire</p>

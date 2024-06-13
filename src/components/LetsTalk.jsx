@@ -13,12 +13,14 @@ const App = () => {
             content:
                 "Crank up the cool factor under your hood with engine bay ice blasting. We delicately lift away oil, grease, and grime without water or chemicals. It's the ultimate detox for your engine, ensuring every hose, wire, and component is treated with the respect it deserves.",
             color: "bg_acc1",
-            maxWidth: "max_w_357"
+            maxWidth: "max_w_357",
+             nowrap: "text_nowrap"
         },
         {
             title: "Underbelly Deep-Clean from £750",
             content: "Crank up the cool factor under your hood with engine bay ice blasting. We delicately lift away oil, grease, and grime without water or chemicals. It's the ultimate detox for your engine, ensuring every hose, wire, and component is treated with the respect it deserves.",
             color: "bg_acc2",
+            nowrap: "text_nowrap"
         },
         {
             title: "Ultimate Undercarriage & Engine Bay Overhaul from £1,125",

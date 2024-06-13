@@ -2,11 +2,12 @@ import React from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import { EffectCoverflow, Pagination, Navigation } from 'swiper/modules';
-import sliderImg1 from '../assets/images/png/sliderCar1.png'
+// import sliderImg1 from '../assets/images/png/sliderCar1.png'
 import sliderImg2 from '../assets/images/png/sliderCar2.png'
 import sliderImg3 from '../assets/images/png/sliderCar3.png'
 import sliderImg4 from '../assets/images/png/sliderCar4.png'
 import sliderImg5 from '../assets/images/png/sliderCar5.png'
+import sliderImg from '../assets/images/png/slider-car1.png'
 import topLayerSlider from '../assets/images/png/slider-top-layer.png'
 import teamTopLayer from '../assets/images/png/team-top-layer.png'
 import { LeftArrow } from '../components/Icons'
@@ -58,7 +59,8 @@ function Slider() {
                     }}>
                     <div className='swiper-wrapper'>
                         <SwiperSlide className='slider-car'>
-                            <div><img src={sliderImg1} alt="sliderImg1" /></div>
+                            {/* <div><img src={sliderImg1} alt="sliderImg1" /></div> */}
+                            <div><img src={sliderImg} alt="sliderImg " /></div>
                         </SwiperSlide>
                         <SwiperSlide className='slider-car'>
                             <div><img src={sliderImg2} alt="sliderImg2" /></div>

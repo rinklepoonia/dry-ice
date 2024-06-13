@@ -5,7 +5,7 @@ function StillUnsure() {
     return (
         <div id='faq'>
             <div className="container">
-                <h2 className='ff_titling fw-bold  text48_2xl lh_lg_57 lh_39 color_blue text-center mb-md-5 mb-3'>Still Unsure? Check Out These FAQs</h2>
+                <h2 className='ff_titling fw-bold  text48_2xl lh_lg_57 lh_39 color_blue text-center mb-md-5 mb-3 pt-lg-5 pt-0'>Still Unsure? Check Out These FAQs</h2>
                 <div class="accordion" id="accordionExample">
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="headingOne">
@@ -46,7 +46,7 @@ function StillUnsure() {
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="headingFoure">
                             <button class="accordion-button collapsed ff_acmin fw-bold  lh_md_33 lh_25" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFoure" aria-expanded="false" aria-controls="collapseFoure">
-                                Can dry ice blasting be used on vehicle interiors?
+                                What makes dry ice blasting more effective than pressure washing or sandblasting?
                             </button>
                         </h2>
                         <div id="collapseFoure" class="accordion-collapse collapse" aria-labelledby="headingFoure" data-bs-parent="#accordionExample">
@@ -58,7 +58,7 @@ function StillUnsure() {
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="headingFive">
                             <button class="accordion-button collapsed ff_acmin fw-bold  lh_md_33 lh_25" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                                Can dry ice blasting be used on vehicle interiors?
+                                Is there any preparation required on my part before a dry ice blasting session?
                             </button>
                         </h2>
                         <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
@@ -70,7 +70,7 @@ function StillUnsure() {
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="headingSix">
                             <button class="accordion-button collapsed ff_acmin fw-bold  lh_md_33 lh_25" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-                                Can dry ice blasting be used on vehicle interiors?
+                                How long does a typical dry ice blasting session take?
                             </button>
                         </h2>
                         <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
@@ -82,7 +82,7 @@ function StillUnsure() {
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="headingSeven">
                             <button class="accordion-button collapsed ff_acmin fw-bold  lh_md_33 lh_25" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
-                                Can dry ice blasting be used on vehicle interiors?
+                                Can dry ice blasting improve my vehicle’s resale value?
                             </button>
                         </h2>
                         <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
@@ -94,7 +94,7 @@ function StillUnsure() {
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="headingEight">
                             <button class="accordion-button collapsed ff_acmin fw-bold  lh_md_33 lh_25" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
-                                Can dry ice blasting be used on vehicle interiors?
+                                Will dry ice blasting remove existing wax or sealant from my car’s paint?
                             </button>
                         </h2>
                         <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight" data-bs-parent="#accordionExample">
@@ -106,7 +106,7 @@ function StillUnsure() {
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="headingNine">
                             <button class="accordion-button collapsed ff_acmin fw-bold  lh_md_33 lh_25" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
-                                Can dry ice blasting be used on vehicle interiors?
+                                Are there any special care instructions to follow after a dry ice blasting session?
                             </button>
                         </h2>
                         <div id="collapseNine" class="accordion-collapse collapse" aria-labelledby="headingNine" data-bs-parent="#accordionExample">
