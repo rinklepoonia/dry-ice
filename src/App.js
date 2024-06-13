@@ -33,13 +33,13 @@ function App() {
   });
   return (
     <div className='overflow-hidden'>
-      {/* <Hero />
+      <Hero />
       <Future />
       <Understanding />
       <WhyChoose />
       <BehindSection />
       <LetsTalk />
-      <Quote /> */}
+      <Quote />
       <Slider />
       <Meeteam />
       <StillUnsure />
