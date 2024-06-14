@@ -23,7 +23,7 @@ function Slider() {
                 <RightArrow />
             </span>
             <div className='container'>
-                <h3 className='ff_titling ff-bold text48_2xl lh_lg_57 lh_39 color_white text-center pb-lg-5 pb-4 mb-lg-2 mb-0'>See Our Latest Work</h3>
+                <h3 className='ff_titling fw-bold text48_2xl lh_lg_57 lh_39 color_white text-center pb-lg-5 pb-4 mb-lg-2 mb-0'>See Our Latest Work</h3>
                 <Swiper className='mb-lg-5 pb-lg-2 pb-0 mb-0'
                     slidesPerView={2.5}
                     spaceBetween={0}

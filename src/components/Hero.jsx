@@ -17,7 +17,7 @@ function Hero() {
     return (
         <div className='hero_bg_img min_vh_100 h_md_954 h_750 d_flex flex-column'>
             <div className="container">
-                <div className='d-flex justify-content-between py_14 mx_45 gap-4 overflow-x-auto'>
+                <div className='d-lg-flex justify-content-between py_14 mx_45 gap-4 overflow-x-auto d-none'>
                     <a href="https://www.google.com/maps" target='_blank' className='d-flex align-items-center gap-2'>
                         <img src={LocationImg} alt="LocationImg" />
                         <p className='ff_acmin fw-normal text16_xs lh_24 color_white opacity_70 mb-0 text-nowrap info_hover transition'>Crawley Mill Industrial Estate, Witney, Oxfordshire </p>
@@ -35,7 +35,7 @@ function Hero() {
                         <p className='ff_acmin fw-normal text16_xs lh_24 color_white opacity_70 mb-0 text-nowrap info_hover transition'>Mon - Fri: 9am to 5pm</p>
                     </a>
                 </div>
-                <div className='nav_property d-flex justify-content-between align-items-center'>
+                <div className='nav_property d-flex justify-content-between align-items-center mt-lg-0 mt-3'>
                     <a href=""> <img src={pagelogo} alt="pagelogo" /></a>
                     <ul className={`${nav ? "end-0" : "right_100"} mobile_view d-flex gap_24 ps-0 mb-0`}>
                         <li><a href="#home" className='ff_acmin fw-bold text16_xs lh_19 color_grey text-nowrap nav_hover transition'>Home</a></li>
