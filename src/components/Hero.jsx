@@ -14,6 +14,7 @@ function Hero() {
     } else {
         document.body.classList.remove("overflow_hidden");
     }
+
     return (
         <div className='hero_bg_img min_vh_100 h_md_954 h_750 d_flex flex-column'>
             <div className="container">
@@ -38,17 +39,17 @@ function Hero() {
                 <div className='nav_property d-flex justify-content-between align-items-center mt-lg-0 mt-3'>
                     <a href=""> <img src={pagelogo} alt="pagelogo" /></a>
                     <ul className={`${nav ? "end-0" : "right_100"} mobile_view d-flex gap_24 ps-0 mb-0`}>
-                        <li><a href="#home" className='ff_acmin fw-bold text16_xs lh_19 color_grey text-nowrap nav_hover transition'>Home</a></li>
-                        <li><a href="#aboutUs" className='ff_acmin fw-bold text16_xs lh_19 color_grey text-nowrap nav_hover transition'>About us</a></li>
-                        <li><a href="#servise" className='ff_acmin fw-bold text16_xs lh_19 color_grey text-nowrap nav_hover transition'>Services</a></li>
-                        <li><a href="#pricing" className='ff_acmin fw-bold text16_xs lh_19 color_grey text-nowrap nav_hover transition'>Pricing</a></li>
-                        <li><a href="#blog" className='ff_acmin fw-bold text16_xs lh_19 color_grey text-nowrap nav_hover transition'>Blog</a></li>
-                        <li><a href="#contact" className='ff_acmin fw-bold text16_xs lh_19 color_grey text-nowrap nav_hover transition'>Contact us</a></li>
+                        <li><a href="#home" onClick={() => setnav(!nav)} className='ff_acmin fw-bold text16_xs lh_19 color_grey text-nowrap nav_hover transition'>Home</a></li>
+                        <li><a href="#aboutUs" onClick={() => setnav(!nav)} className='ff_acmin fw-bold text16_xs lh_19 color_grey text-nowrap nav_hover transition'>About us</a></li>
+                        <li><a href="#servise" onClick={() => setnav(!nav)} className='ff_acmin fw-bold text16_xs lh_19 color_grey text-nowrap nav_hover transition'>Services</a></li>
+                        <li><a href="#pricing" onClick={() => setnav(!nav)} className='ff_acmin fw-bold text16_xs lh_19 color_grey text-nowrap nav_hover transition'>Pricing</a></li>
+                        <li><a href="#blog" onClick={() => setnav(!nav)} className='ff_acmin fw-bold text16_xs lh_19 color_grey text-nowrap nav_hover transition'>Blog</a></li>
+                        <li><a href="#contact" onClick={() => setnav(!nav)} className='ff_acmin fw-bold text16_xs lh_19 color_grey text-nowrap nav_hover transition'>Contact us</a></li>
                         <li><button className='ff_acmin fw-bold text16_xs lh_19 color_white btn_property d-md-none d-block'>Call Us</button></li>
                     </ul>
                     <button className='ff_acmin fw-bold text16_xs lh_19 color_white btn_property d-md-block d-none btn_hover transition'>Call Us</button>
                     <div className='menu d-lg-none z_6' onClick={() => setnav(!nav)}>
-                        <span className=''></span>
+                        <span></span>
                         <span className='my-2'></span>
                         <span></span>
                     </div>
