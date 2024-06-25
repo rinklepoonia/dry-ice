@@ -16,7 +16,7 @@ function Hero() {
     }
 
     return (
-        <div className='hero_bg_img min_vh_100 h_md_954 h_750 d_flex flex-column'>
+        <div className='hero_bg_img min_vh_100 d_flex flex-column pb_100'>
             <div className="container">
                 <div className='d-lg-flex justify-content-between py_14 mx_45 gap-4 overflow-x-auto d-none'>
                     <a href="https://www.google.com/maps" target='_blank' className='d-flex align-items-center gap-2'>
