@@ -1,12 +1,12 @@
 import React from 'react'
-import TeamBoy from '../assets/images/png/meet-team-boy.png'
-import teamEllip from '../assets/images/png/meet-boy-ellip.png'
-import TeamImg from '../assets/images/png/teamImg.png'
-import teamBottomLayer from '../assets/images/png/team-bottom-layer.png'
+import TeamBoy from '../assets/images/webp/meet-team-boy.webp'
+import teamEllip from '../assets/images/webp/meet-boy-ellip.webp'
+import TeamImg from '../assets/images/webp/teamImg.webp'
+import teamBottomLayer from '../assets/images/webp/team-bottom-layer.webp'
 
 function Meeteam() {
     return (
-        <div>
+        <>
             <div className="container">
                 <div className="row align-items-center mt_128 mt_140 py_xxl_100">
                     <div data-aos="fade-right" className="col-lg-5 d-flex justify-content-center">
@@ -24,7 +24,7 @@ function Meeteam() {
                 </div>
             </div>
             <img className='w-100 mt_100' src={teamBottomLayer} alt="teamBottomLayer" />
-        </div>
+        </>
     )
 }
 

@@ -209,7 +209,7 @@
 
 /* =========hero========= */
 .hero_bg_img {
-  background-image: url(./assets/images/png/hero-bg-img.png);
+  background-image: url(./assets/images/webp/hero-bg-img.webp);
   background-size: 100% 100%;
   background-position: center;
 }
@@ -311,7 +311,7 @@
 }
 
 .future_bg_img {
-  background-image: url(./assets/images/png/future-bg-img.png);
+  background-image: url(./assets/images/webp/future-bg-img.webp);
   background-size: cover;
 }
 
@@ -342,7 +342,7 @@
 
 /* ============behind======== */
 .behind_bg_img {
-  background-image: url(./assets/images/png/behind-bg-img.png);
+  background-image: url(./assets/images/webp/behind-bg-img.webp);
   background-size: 100% 100%;
 }
 

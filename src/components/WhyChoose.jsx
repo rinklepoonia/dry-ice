@@ -1,9 +1,9 @@
 import React from 'react'
-import car1 from '../assets/images/png/whyChoose1.png'
-import car2 from '../assets/images/png/whyChoose2.png'
-import car3 from '../assets/images/png/whyChoose3.png'
-import car4 from '../assets/images/png/whyChoose4.png'
-import whyChooseImg from '../assets/images/png/whyChoose-Img.png'
+import car1 from '../assets/images/webp/whyChoose1.webp'
+import car2 from '../assets/images/webp/whyChoose2.webp'
+import car3 from '../assets/images/webp/whyChoose3.webp'
+import car4 from '../assets/images/webp/whyChoose4.webp'
+import whyChooseImg from '../assets/images/webp/whyChoose-Img.webp'
 
 
 

@@ -1,7 +1,7 @@
 import React from 'react'
-import latest1Img from '../assets/images/png/latestImg1.png'
-import latest2Img from '../assets/images/png/latestImg2.png'
-import latest3Img from '../assets/images/png/latestImg3.png'
+import latest1Img from '../assets/images/webp/latestImg1.webp'
+import latest2Img from '../assets/images/webp/latestImg2.webp'
+import latest3Img from '../assets/images/webp/latestImg3.webp'
 
 function LatestSection() {
     return (

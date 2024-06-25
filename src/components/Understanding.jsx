@@ -1,8 +1,8 @@
 import React from 'react'
-import TopLayerImg from '../assets/images/png/understanding-top-layer.png'
-import layerImg2 from '../assets/images/png/layer2.png'
-import dryBlasting1 from '../assets/images/png/understanding1.png'
-import dryBlasting2 from '../assets/images/png/understanding2.png'
+import TopLayerImg from '../assets/images/webp/understanding-top-layer.webp'
+import layerImg2 from '../assets/images/webp/layer2.webp'
+import dryBlasting1 from '../assets/images/webp/understanding1.webp'
+import dryBlasting2 from '../assets/images/webp/understanding2.webp'
 
 function Understanding() {
     return (

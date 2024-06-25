@@ -1,7 +1,7 @@
 import React from 'react'
 import tiksvg from '../assets/images/svg/future-tik-svg.svg'
-import futureCleaning from '../assets/images/png/future-cleaning-img.png'
-import playBtn from '../assets/images/png/playbutton.png'
+import futureCleaning from '../assets/images/webp/future-cleaning-img.webp'
+import playBtn from '../assets/images/webp/playbutton.webp'
 
 function Future() {
     return (

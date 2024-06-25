@@ -1,5 +1,5 @@
 import React from 'react'
-import blastBottomLayer from '../assets/images/png/blast-bottom-layer.png'
+import blastBottomLayer from '../assets/images/webp/blast-bottom-layer.webp'
 
 function Blast() {
     return (

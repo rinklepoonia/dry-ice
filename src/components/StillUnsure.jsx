@@ -1,5 +1,5 @@
 import React from 'react'
-import blasttopLayer from '../assets/images/png/blast-top-layer.png'
+import blasttopLayer from '../assets/images/webp/blast-top-layer.webp'
 
 function StillUnsure() {
     return (

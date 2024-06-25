@@ -2,13 +2,13 @@ import React from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import { EffectCoverflow, Pagination, Navigation } from 'swiper/modules';
-import sliderImg1 from '../assets/images/png/sliderCar1.png'
-import sliderImg2 from '../assets/images/png/sliderCar2.png'
-import sliderImg3 from '../assets/images/png/sliderCar3.png'
-import sliderImg4 from '../assets/images/png/sliderCar4.png'
-import sliderImg5 from '../assets/images/png/sliderCar5.png'
-import topLayerSlider from '../assets/images/png/slider-top-layer.png'
-import teamTopLayer from '../assets/images/png/team-top-layer.png'
+import sliderImg1 from '../assets/images/webp/sliderCar1.webp'
+import sliderImg2 from '../assets/images/webp/sliderCar2.webp'
+import sliderImg3 from '../assets/images/webp/sliderCar3.webp'
+import sliderImg4 from '../assets/images/webp/sliderCar4.webp'
+import sliderImg5 from '../assets/images/webp/sliderCar5.webp'
+import topLayerSlider from '../assets/images/webp/slider-top-layer.webp'
+import teamTopLayer from '../assets/images/webp/team-top-layer.webp'
 import { LeftArrow } from '../components/Icons'
 import { RightArrow } from '../components/Icons'
 

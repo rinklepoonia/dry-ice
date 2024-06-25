@@ -1,8 +1,8 @@
 import React from 'react'
-import behindCarImg from '../assets/images/png/behind-car-img.png'
-import layer3 from '../assets/images/png/layer3.png'
-import layer4 from '../assets/images/png/layer4.png'
-import playBtn from '../assets/images/png/playbutton.png'
+import behindCarImg from '../assets/images/webp/behind-car-img.webp'
+import layer3 from '../assets/images/webp/layer3.webp'
+import layer4 from '../assets/images/webp/layer4.webp'
+import playBtn from '../assets/images/webp/playbutton.webp'
 
 function BehindSection() {
     return (

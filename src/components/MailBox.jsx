@@ -1,5 +1,5 @@
 import React from 'react'
-import mailImg from '../assets/images/png/mail-box-img.png'
+import mailImg from '../assets/images/webp/mail-box-img.webp'
 
 function MailBox() {
     return (
