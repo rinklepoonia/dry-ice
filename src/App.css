@@ -336,9 +336,6 @@
 }
 
 /* ============behind======== */
-.behind_img_width {
-  width: 100%;
-}
 .behind_bg_img {
   background-image: url(./assets/images/webp/behind-bg-img.webp);
   background-size: 100% 100%;
@@ -352,7 +349,11 @@
   left: 50%;
   top: 50%;
 }
-
+.pos_playbtn2 {
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
 .max_w_25 {
   max-width: 25px;
 }
@@ -1110,6 +1111,9 @@ input[type="checkbox"]:checked {
   .pb_100 {
     padding-bottom: 100px;
   }
+  .behind_img_width {
+    width: 100%;
+  }
 }
 
 @media (min-width: 1535.99px) {
@@ -1122,7 +1126,7 @@ input[type="checkbox"]:checked {
   }
   .min_vh_heroSection {
     min-height: 75vh;
-    padding-bottom: 40px
+    padding-bottom: 40px;
   }
 }
 
