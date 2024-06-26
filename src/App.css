@@ -52,7 +52,7 @@
 
 :root {
   --fs-xxs: 14px;
-  --fs-xs: 14px;
+  --fs-xs: 16px;
   --fs-sm: 16px;
   --fs-md: 20px;
   --fs-2md: 20px;
@@ -242,8 +242,7 @@
 .nav_property {
   background: var(--clr-white);
   border-radius: 16px;
-  padding-left: 45px;
-  padding-right: 45px;
+  padding: 0 15px 0 15px;
   height: 83px;
 }
 
@@ -337,6 +336,9 @@
 }
 
 /* ============behind======== */
+.behind_img_width {
+  width: 100%;
+}
 .behind_bg_img {
   background-image: url(./assets/images/webp/behind-bg-img.webp);
   background-size: 100% 100%;
@@ -349,7 +351,6 @@
 .pos_playbtn {
   left: 50%;
   top: 50%;
-  transform: translate(-50%, -50%);
 }
 
 .max_w_25 {
@@ -643,7 +644,7 @@
   max-width: 505px;
   width: 100%;
   border-radius: 47px;
-  padding: 3px 5px 3px 20px;
+  padding: 13px;
 }
 
 input[type="checkbox"] {
@@ -821,9 +822,6 @@ input[type="checkbox"]:checked {
   .mt-30 {
     margin-top: -30px !important;
   }
-  .pb_100 {
-    padding-bottom: 100px;
-  }
 }
 
 @media (max-width: 576px) {
@@ -859,6 +857,9 @@ input[type="checkbox"]:checked {
 
   .mt_sm_60 {
     margin-top: -60px;
+  }
+  .input_modification {
+    padding: 3px 5px 3px 20px;
   }
 }
 
@@ -1030,6 +1031,9 @@ input[type="checkbox"]:checked {
   .accordion_item {
     padding: 32px;
   }
+  .nav_property {
+    padding: 0 45px 0 45px;
+  }
 }
 
 @media (min-width: 1200px) {
@@ -1060,6 +1064,9 @@ input[type="checkbox"]:checked {
 }
 
 @media (min-width: 1400px) {
+  .behind_img_width {
+    max-width: 1140px;
+  }
   .max_w_xxl_728 {
     max-width: 728px;
   }
@@ -1099,9 +1106,9 @@ input[type="checkbox"]:checked {
     padding-bottom: 100px;
   }
 }
-@media (min-width: 992px) and (max-width: 1535.99px) {
-  .min_vh_100 {
-    min-height: 100vh;
+@media (max-width: 1399.99px) {
+  .pb_100 {
+    padding-bottom: 100px;
   }
 }
 
@@ -1113,10 +1120,16 @@ input[type="checkbox"]:checked {
   .flex_grow_1 {
     flex-grow: 1 !important;
   }
+  .min_vh_heroSection {
+    min-height: 67vh;
+  }
 }
 
 @media (min-width: 1400px) and (max-width: 1535.99px) {
   .container {
     max-width: 1140px !important;
+  }
+  .min_vh_heroSection {
+    min-height: 100vh;
   }
 }
