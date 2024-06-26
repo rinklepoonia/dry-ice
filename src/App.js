@@ -17,20 +17,20 @@ import MailBox from './components/MailBox';
 import FooterSection from './components/FooterSection';
 import Map from './components/Map'
 import Slider from './components/Slider';
-// import AOS from 'aos';
-// import 'aos/dist/aos.css';
-// import Aos from 'aos';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import Aos from 'aos';
 
 function App() {
-  // useEffect(() => {
-  //   AOS.init(
-  //     {
-  //       once: true,
-  //       duration: 1200,
-  //     }
-  //   );
-  //   Aos.refresh()
-  // });
+  useEffect(() => {
+    AOS.init(
+      {
+        once: true,
+        duration: 1200,
+      }
+    );
+    Aos.refresh()
+  });
   return (
     <div className='overflow-hidden'>
       <Hero />
