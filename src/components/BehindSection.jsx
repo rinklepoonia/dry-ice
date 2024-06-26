@@ -12,7 +12,7 @@ function BehindSection() {
                 <h2 className='ff_titling fw-bold text48_2xl lh_lg_57 lh_39 color_white text-center mx-auto mb-2 pb-1 pt-lg-5 pt-2 mt-lg-4 mt-0'>Behind the Scenes
                     <span className='d-lg-block'>Dry Ice Blasting a Car</span></h2>
                 <p className='ff_acmin fw-normal text16_xs lh_24 color_white text-center mb-lg-5 mb-3'>From the initial setup to the final sweep, discover how we elevate car cleaning to an <span className='d-lg-block'>art form, delivering immaculate results every time.</span></p>
-                <div data-aos="zoom-in" className='position-relative'>
+                <div data-aos="zoom-in" className='position-relative d-flex justify-content-xl-center'>
                     <img className='behind_img_width' src={behindCarImg} alt="behindCarImg" />
                     <div className='position-absolute pos_playbtn'><img className='max_w_md_60 max_w_25 cursor_pointer' src={playBtn} alt="playBtn" /></div>
                 </div>

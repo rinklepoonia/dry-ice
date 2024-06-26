@@ -1121,7 +1121,8 @@ input[type="checkbox"]:checked {
     flex-grow: 1 !important;
   }
   .min_vh_heroSection {
-    min-height: 67vh;
+    min-height: 75vh;
+    padding-bottom: 40px
   }
 }
 

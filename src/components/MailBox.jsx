@@ -37,7 +37,7 @@ function MailBox() {
           </button>
           <label
             for="checkbox"
-            class="check_label d-flex align-items-center gap-2"
+            class="check_label d-flex align-items-center gap-2 cursor_pointer"
           >
             <input type="checkbox" id="checkbox" name="checkbox" />
             <p class="ff_acmin fw-normal text16_xs lh_16 color_white opacity_90 mb-0">
